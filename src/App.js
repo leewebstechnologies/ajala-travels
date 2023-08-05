@@ -1,7 +1,19 @@
+import Home from "./pages/Home";
+import "./index.css";
+import { Routes, Route } from "react-router-dom";
+import About from "./pages/About";
+import TourPackage from "./pages/TourPackage";
+import DetailPackage from "./pages/DetailPackage";
+
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/tour-package" element={<TourPackage />} />
+        <Route path="/tour-package/:tourPackageId" element={<DetailPackage />} />
+      </Routes>
     </>
   );
 }

@@ -166,6 +166,7 @@ body {
   border-radius: 0.5rem;
   color: #fff;
   font-size: 1.25rem;
+  cursor: pointer;
   font-weight: var(--fw-semibold);
 }
 
@@ -477,3 +478,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+
+

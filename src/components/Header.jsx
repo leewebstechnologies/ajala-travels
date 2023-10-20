@@ -8,7 +8,7 @@ const Header = () => {
       <header className="header" id="header">
         <nav className="nav container">
           <Link to="/" class="nav__logo">
-            Ajala<span> Travels</span>
+            BJ<span> Travels</span>
           </Link>
 
           <div
